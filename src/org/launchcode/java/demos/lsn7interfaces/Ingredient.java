@@ -37,6 +37,10 @@ public abstract class Ingredient {
         this.allergens = allergens;
     }
 
+    public Integer countAllergens() {
+        return allergens.size();
+    }
+
     @Override
     public String toString() {
         return "Name: " + name + "\n" +

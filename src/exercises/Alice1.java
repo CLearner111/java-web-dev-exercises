@@ -14,6 +14,7 @@ public class Alice1 {
         System.out.println("Enter a word to search for: ");
         String word = input.next();
 
+        input.close();
 
         if(sentence.toLowerCase().contains(word.toLowerCase())) {
             System.out.println("True");
